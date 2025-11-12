@@ -1,0 +1,5 @@
+{
+  "name": "Neon Party Flyer",
+  "description": "An interactive and dynamic event flyer for a Neon Party, featuring animated backgrounds, glowing effects, and a PIX payment modal. Built with React and Tailwind CSS.",
+  "requestFramePermissions": []
+}
