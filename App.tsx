@@ -12,7 +12,7 @@ import { type EventData } from './types';
 
 const eventData: EventData = {
     mainTitle: "NOITE DO BOTA",
-    subtitle: "NOITE DAS LUZES",
+    subtitle: "A NOITE DOS RITMOS",
     djs: "VENHA CURTIR COM A GENTE",
     eventDate: "29 DE NOVEMBRO (SÁBADO) ÀS 22H",
     targetDate: '2025-11-29T22:00:00',
