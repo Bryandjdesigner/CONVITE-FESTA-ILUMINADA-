@@ -22,11 +22,11 @@ const EventInfo: React.FC<EventInfoProps> = ({ djs, date, priceLocal, priceAdvan
                 <div className="flex gap-4">
                     <div className="text-center">
                         <div className="text-xs md:text-sm text-cyan-300 uppercase mb-1 tracking-wide">No Local</div>
-                        <div className="text-xl md:text-2xl text-white font-black">{priceLocal}</div>
+                        <div className="text-xl md:text-2xl text-cyan-300 font-black [text-shadow:0_0_8px_rgba(0,255,255,0.7)]">{priceLocal}</div>
                     </div>
                     <div className="text-center">
                         <div className="text-xs md:text-sm text-pink-400 uppercase mb-1 tracking-wide">Antecipado</div>
-                        <div className="text-xl md:text-2xl text-white font-black">{priceAdvance}</div>
+                        <div className="text-xl md:text-2xl text-pink-400 font-black [text-shadow:0_0_8px_rgba(255,0,193,0.7)]">{priceAdvance}</div>
                     </div>
                 </div>
             </div>
