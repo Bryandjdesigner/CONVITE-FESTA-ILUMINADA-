@@ -7,18 +7,19 @@ import EventInfo from './components/EventInfo';
 import Cta from './components/Cta';
 import PixModal from './components/PixModal';
 import Toast from './components/Toast';
+import Logo from './components/Logo';
 import { type EventData } from './types';
 
 const eventData: EventData = {
-    mainTitle: "NEON PARTY",
+    mainTitle: "NOITE DO BOTA",
     subtitle: "NOITE DAS LUZES",
     djs: "VENHA CURTIR COM A GENTE",
-    eventDate: "23 DE NOVEMBRO ÀS 18H",
-    targetDate: '2025-11-23T18:00:00',
+    eventDate: "29 DE NOVEMBRO (SÁBADO) ÀS 22H",
+    targetDate: '2025-11-29T22:00:00',
     priceLocal: "R$20",
     priceAdvance: "R$15",
-    pixKey: "71991629523",
-    pixName: "Gileno Andrade Bispo",
+    pixKey: "21965844958",
+    pixName: "Marcelo Pedreira dos Santos",
     callToAction: "VENHA CURTIR UMA NOITE ILUMINADA COM BOA MÚSICA E MUITA ENERGIA.",
     impactPhrase: "A NOITE VAI BRILHAR!",
 };
@@ -50,6 +51,7 @@ const App: React.FC = () => {
             <AnimatedBackground />
             
             <main className="relative z-10 min-h-full flex flex-col p-4 sm:p-6 md:p-8 lg:p-10">
+                <Logo />
                 <Header 
                     title={eventData.mainTitle} 
                     subtitle={eventData.subtitle} />

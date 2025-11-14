@@ -1,6 +1,4 @@
-
 import React from 'react';
-import Logo from './Logo';
 
 interface HeaderProps {
     title: string;
@@ -10,8 +8,7 @@ interface HeaderProps {
 const Header: React.FC<HeaderProps> = ({ title, subtitle }) => {
     return (
         <header>
-            <Logo />
-            <div className="main-title text-center my-4 sm:my-6">
+            <div className="main-title text-center my-8 sm:my-10">
                 <h1 className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-black uppercase leading-none m-0 animate-neon-flicker">
                     {title}
                 </h1>
